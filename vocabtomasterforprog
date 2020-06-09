@@ -37,9 +37,17 @@ Underflow: When the magnitude of the operation is too small or is out of range o
 a super small number from a smaller number that it is out of range of the data type which can handle.
 Nested Loops: a loop within a loop for(int i =1;i=3;i++){for(int j=1;j<3;j++){cout<<b[i][j];}}
 Arrays: structure of data which can store a fixed or unfixed(using a variable) size of elements within it
-Array Methods, Members, Indexing, Lists
+Array Methods(.add, .remove)
+Members: I create an array of integers say 4,5,6 and I give it a name of myArray 5 is a member of of myArray
+Indexing: position of an element in an array 1st element is at index 0. The last element is one less than the size of the array
+Another way to access the last element of an array is by entering arrayName[-1]
 Lists Vs. Tuples. Lists can be used to store data similar to arrays and are mutable whereas tuples are immutable
 Linked Lists: a chain of elements which are connected to its predecessors. The elements are called nodes.
 Files
 String Functions And Formatting
 File I/O
+Programming Paradigms:
+      Functional: We break a problem into subsets. Every subset will have its designated function that will solve it in implementation
+      Object Oriented: We have different classese each class is in charge of a task to perform and the scope is at the class's discretion
+      Imperative: computation is performed in a sequence of steps similar to a recipe
+      Logical: make assertions about a situation, lay out the facts we maintain data and tackle the problem by deduction similar to process of elimination
