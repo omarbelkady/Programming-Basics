@@ -1,10 +1,11 @@
 Program Design
 Pseudocode
-Flowcharts
-Integrated Development Environment
-Version Control
-Input and Output
-Data and Operators
+Flowcharts: Diagram that informs the public what logic your program is following
+Integrated Development Environment:  The application that build and runs our programs
+Version Control: A system that tracks changes to a file/set of files over time
+for us to keep record of specific versions later on
+Input and Output: Input is what I send to the compiler and output is what I get back
+Data and Operators: 
 Constants and Variables: Immutable vs Mutables
 Identifier Names= myName, hisName
 Primitive Data Types(Int, Float, String, Boolean, Double,Char)
