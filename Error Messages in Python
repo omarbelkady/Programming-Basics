@@ -1,0 +1,17 @@
+ZeroDivisionError: The operation you are trying to perform is not possible because you are dividing by zero. Division
+by 0 is not allowed
+
+NameError: This is raised whenever you try to use a variable that you have not defined yet.
+
+TypeError: This is raised whenever you try to perform an operation with two non-identical datatypes. The compiler will raise
+an error telling you you cannot convert the 2nd datatype to the first datatype.
+
+We can overcome errors by using conditionals: try-except block, if else statement, while loop
+
+Syntax Error: You have a typo or are misusing a statement/reserved keyword correctly for example:
+while True print('MY NAME IS OMAR')
+
+The above line of code will error because I am missing a colon.
+It should be:
+while True:
+      print('MY NAME IS OMAR')
