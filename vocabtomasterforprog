@@ -74,3 +74,6 @@ Strongly-typed:  Specifying the data type of the variable/object upon declaratio
 the compiler will throw an error to the console.
 Statically-typed: The data type of a variable is checked at compile-time(Java, C, C++, C#)
 Dynamically-typed: The data type of a variable is checked at run-time(Python, Ruby,JavaScript, PHP)
+Pascal Case: BlaBlaBla==> the first letter of every word in the identifier is upper case
+Camel Case: blaBlaBla ==> the first letter of the first word is lower case, but the first letter of any subsequent
+word is uppercase
