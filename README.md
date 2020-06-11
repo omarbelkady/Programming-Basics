@@ -127,4 +127,4 @@ File I/O
 ### Pascal Case
     BlaBlaBla meaning the first letter of every word in the identifier is upper case
 ### Camel Case
-    blaBlaBla ==> the first letter of the first word is lower case, but the first letter of any subsequent word is uppercase
+    blaBlaBla the first letter of the first word is lower case, but the first letter of any subsequent word is uppercase
