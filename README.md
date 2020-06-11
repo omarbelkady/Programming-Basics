@@ -2,9 +2,8 @@ Program Design
 Pseudocode
 ### Flowcharts: 
   Diagram that informs the public what logic your program is following
-### Integrated Development Environment:  The application that build and runs our programs
-### Version Control: 
-      A system that tracks changes to a file/set of files over time
+### Integrated Development Environment: The application that build and runs our programs
+### Version Control: A system that tracks changes to a file/set of files over time
 for us to keep record of specific versions later on
 Input and Output: Input is what I send to the compiler and output is what I get back
 Data and Operators: 
