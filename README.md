@@ -1,35 +1,51 @@
 Program Design
 Pseudocode
 ### Flowcharts: 
-  Diagram that informs the public what logic your program is following
-### Integrated Development Environment: The application that build and runs our programs
-### Version Control: A system that tracks changes to a file/set of files over time
-for us to keep record of specific versions later on
-Input and Output: Input is what I send to the compiler and output is what I get back
-Data and Operators: 
-Constants and Variables: Immutable vs Mutables
-Identifier Names= myName, hisName
-Primitive Data Types(Int, Float, String, Boolean, Double,Char)
+    Diagram that informs the public what logic your program is following
+### Integrated Development Environment: 
+    The application that build and runs our programs
+### Version Control:
+    A system that tracks changes to a file/set of files over time for us to keep record of specific versions later on
 
-Derived Data Types(e.g. When you define class. You use these tools: Pointers, Arrays, 
-Structures, Classes, Union, Enumeration, etc.)
+### Input and Output:
+    Input is what I send to the compiler and output is what I get back
+### Data and Operators: 
 
-Order of Operations: PEMDAS
-Assignment: =
-Arithmetic:+,-,*,/,%,**   
-Comparison/Relational Ops: ==, < , > , <= , >= , !=
-Assignment vs Equality(= vs == vs ===)
-Data Type Conversions(casting or type coercion): changing a variable from one data type to another
-Functions: we create a function to make our lives easier and make our code shorter and remember the bottom REUSABILITY
-Modular Programming: software design technique that emphasizes separating the 
+### Constants and Variables:
+    Immutable vs Mutables
+### Identifier Names:
+    myName, hisName
+### Primitive Data Types:
+    Int, Float, String, Boolean, Double,Char
+
+### Derived Data Types: 
+    When you define class. You use these tools: Pointers, Arrays, Structures, Classes, Union, Enumeration, etc.
+
+### Assignment Operator: 
+    =
+### Arithmetic Operators:
+    +,-,*,/,%,**   
+### Comparison/Relational Operators:
+    ==, < , > , <= , >= , !=
+### Assignment vs Equality(In Data type and value e.g. 1 "1" with = it would print true but with === print false
+    (= vs == vs ===)
+### Data Type Conversions(casting or type coercion):
+    changing a variable from one data type to another
+### Functions:
+    we create a function to make our lives easier and make our code shorter and remember the bottom REUSABILITY
+
+### Modular Programming:
+    software design technique that emphasizes separating the 
 functionality of a program into independent, interchangeable modules
-Parameters and Arguments: void add(int i, int j){ cout<<i+j<<endl;} 
-add(4,5) ..... In this case i and j are the parameters they are your functions signature and 4 and 5 are your arguments.
-Pass by Value vs Pass by Reference: 
-            Pass By Value: make a copy of the value in memory e.g. example above 4 and 5 are copied to memory. 
-            When I want to use the parameter for a computation
-            Pass By Reference: keep a log of the variable's location in memory so that I don't want soemthing to be changed.
-Return Condition(Value or Void): Do I want something to be returned to me back in the console(return) or not(void).
+### Parameters and Arguments: 
+     void add(int i, int j){ cout<<i+j<<endl;} 
+      add(4,5) ..... In this case i and j are the parameters they are your functions signature
+      and 4 and 5 are your arguments.
+### Pass by Value vs Pass by Reference: 
+   ## Pass By Value: make a copy of the value in memory e.g. example above 4 and 5 are copied to memory. When I want to use the parameter for a computation
+   ## Pass By Reference: keep a log of the variable's location in memory so that I don't want soemthing to be changed.
+
+### Return Condition(Value or Void): Do I want something to be returned to me back in the console(return) or not(void).
 Scope(Who can access what): Control who has access to certain elements within my application public, protected and private.
 
 Conditionals(if this happens then do this). If this conditions evaluates to true execute this piece of code. 
