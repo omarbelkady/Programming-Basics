@@ -26,6 +26,8 @@ NameError: This is raised whenever you try to use a variable that you have not d
 
 OSError: A System operation was performed and it triggered a system-related error. 
 
+OverflowError: The arithmetic operation is too large for the declared data type we are performing with.
+
 We can overcome errors by using conditionals: try-except block, if else statement, while loop
 
 RuntimeError: Error that is raised does not have any category
