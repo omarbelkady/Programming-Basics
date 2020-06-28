@@ -85,13 +85,13 @@
     software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules
 ### Nested Loops 
     a loop within a loop
-    for(int i =1;i=3;i++)
-    {
-	for(int j=1;j<3;j++)
-	{
-	    cout<<b[i][j];
-	}
-    }
+	    for(int i =1;i=3;i++)
+	    {
+		for(int j=1;j<3;j++)
+		{
+		    cout<<b[i][j];
+		}
+	    }
 ### Parameters and Arguments: 
      void add(int i, int j)
      {
