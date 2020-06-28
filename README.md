@@ -33,11 +33,14 @@
 ### Derived Data Types: 
     When you define class. You use these tools: Pointers, Arrays, Structures, Classes, Union, Enumeration, etc.
 ### Data Types
-    int a = 5; //this is an Integer it has no decimal
-    float b= 1.2345 // this is called a Float it has a fractional portional
-    char c= 'c' //this is a Character data type it is denoted in single quotes
-    string d= "Hello" //this is a String or an array of characters
-    bool e= true //this is a boolean it can have 2 values either True or False. 1 meaning True and False meaning 0.
+    char c= 'c' //this is a Character data type it is denoted in single quotes. It takes 1 byte in memory
+    int a = 5; //this is an Integer it has no decimal. It takes 4 bytes in memory.
+    float b= 1.234567 // this is called a Float it has a fractional portion and can have up to 7 sig figs past the decimal. It takes up, 4 bytes in memory. 
+    double d= 18.494483923923 //This is a Double it has a fractional portion and is more precise than a float.
+    It can have up 15 decimal places in precision. It takes up 8 bytes in memory
+    
+    string d= "Hello" //this is a String or an array of characters it is denoted in double quotes. It takes up 2 bytes in memory
+    bool e= true //this is a boolean it can have 2 values either True or False. 1 meaning True and False meaning 0. It takes up 
     	#include<iostream>
 	using namespace std;
 	main()
@@ -84,18 +87,17 @@
     a loop within a loop
     for(int i =1;i=3;i++)
     {
-    	for(int j=1;j<3;j++)
-		{
-			cout<<b[i][j];
-		}
+	for(int j=1;j<3;j++)
+	{
+	    cout<<b[i][j];
 	}
+    }
 ### Parameters and Arguments: 
      void add(int i, int j)
      {
             cout<<i+j<<endl;
      } 
-      add(4,5) ..... In this case i and j are the parameters they are your functions signature
-      and 4 and 5 are your arguments.
+     add(4,5) ..... In this case i and j are the parameters they are your functions signature and 4 and 5 are your arguments.
 ### Pascal Case
     BlaBlaBla meaning the first letter of every word in the identifier is upper case
 
