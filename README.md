@@ -32,6 +32,21 @@
     changing a variable from one data type to another
 ### Derived Data Types: 
     When you define class. You use these tools: Pointers, Arrays, Structures, Classes, Union, Enumeration, etc.
+### Data Types
+    int a = 5; //this is an Integer it has no decimal
+    float b= 1.2345 // this is called a Float it has a fractional portional
+    char c= 'c' //this is a Character data type it is denoted in single quotes
+    string d= "Hello" //this is a String or an array of characters
+    bool e= true //this is a boolean it can have 2 values either True or False. 1 meaning True and False meaning 0.
+    	#include<iostream>
+	using namespace std;
+	main()
+	{
+    		bool x= true;
+    		cout<<x;
+	}
+	
+	//THIS OUTPUTS 1.
 ### Dynamically-typed
     The data type of a variable is checked at run-time(Python, Ruby,JavaScript, PHP)
 ### Flowcharts: 
