@@ -66,47 +66,68 @@
 ### Modular Programming:
     software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules
 ### Nested Loops 
-    a loop within a loop for(int i =1;i=3;i++){for(int j=1;j<3;j++){cout<<b[i][j];}}
+    a loop within a loop
+    for(int i =1;i=3;i++)
+    {
+    	for(int j=1;j<3;j++)
+		{
+			cout<<b[i][j];
+		}
+	}
 ### Parameters and Arguments: 
-     void add(int i, int j){ cout<<i+j<<endl;} 
+     void add(int i, int j)
+     {
+            cout<<i+j<<endl;
+     } 
       add(4,5) ..... In this case i and j are the parameters they are your functions signature
       and 4 and 5 are your arguments.
 ### Pascal Case
     BlaBlaBla meaning the first letter of every word in the identifier is upper case
+
 ## Pass by Value vs Pass by Reference: 
 ### Pass By Value:
     make a copy of the value in memory e.g. example above 4 and 5 are copied to memory. When I want to use the parameter for a computation
 ### Pass By Reference:
     keep a log of the variable's location in memory so that I don't want soemthing to be changed.
+
+
 ### Primitive Data Types:
     Int, Float, String, Boolean, Double,Char
 ### Programming Paradigms
-      1- Functional: We break a problem into subsets. Every subset will have its designated function that will 
-      solve it in implementation
+    1- Functional: We break a problem into subsets. Every subset will have its designated function that will 
+    solve it in implementation
       
-      2- Object Oriented: We have different classese each class is in charge of a task to perform and the scope 
-      is at the class's discretion
+    2- Object Oriented: We have different classese each class is in charge of a task to perform and the scope 
+    is at the class's discretion
       
-      3- Imperative: computation is performed in a sequence of steps similar to a recipe
+    3- Imperative: computation is performed in a sequence of steps similar to a recipe
       
-      4- Logical: make assertions about a situation, lay out the facts we maintain data and tackle 
-      the problem by deduction similar to process of elimination
+    4- Logical: make assertions about a situation, lay out the facts we maintain data and tackle 
+    the problem by deduction similar to process of elimination
 
 ### Return Condition(Value or Void):
     Do I want something to be returned to me back in the console(return) or not(void).
+
 ### Scope(Who can access what):
     Control who has access to certain elements within my application public, protected and private.
+
 ### Statically-typed
     The data type of a variable is checked at compile-time(Java, C, C++, C#)
+
 ### Synchronous
     Execute one element at a time
+
 ### Strongly-typed
     Specifying the data type of the variable/object upon declaration is strictly enforced. If not performed, the compiler will throw an error to the console.
+
 ### Do while loop runs at least once.
+
 ### Underflow
     When the magnitude of the operation is too small or is out of range of the specified data  type usually when you try to subtract a super small number from a smaller number that it is out of range of the data type which can handle.
+
 ### Version Control:
     A system that tracks changes to a file/set of files over time for us to keep record of specific versions later on
+
 ### While loop 
     checks a condtion if it is met and keeps on executing until it evaluates to false and is one of the infinite loops.
 
@@ -116,5 +137,6 @@
 
 ### File I/O
     We use File I/O in programming to work with files such as read a file, write to a file. The I stands for Input which we write to a file it is input. When we output contents from a file that is output.
+
 ### String Functions And Formatting
     String functions are methods we perform on a string data type. Formatting is used so that when we try to perform a function on a string it doesn't raise an error or we perform formatting on a string to display a nice result for good programming practice.
